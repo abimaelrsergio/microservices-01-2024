@@ -1,0 +1,10 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: service-registry
+# Para que ele não tente se registrar nele mesmo, em produção o ideal é tirar esta configuração aqui
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
