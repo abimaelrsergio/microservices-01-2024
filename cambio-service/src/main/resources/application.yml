@@ -22,4 +22,6 @@ spring:
     user: root
     password: abimael
     locations: classpath:db/migration
-        
+springdoc:
+  api-docs:
+    path: cambio-service/v3/api-docs
